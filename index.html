@@ -2,42 +2,65 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Blogr Landing Page</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Overpass:300,400,600&amp;display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&amp;display=swap">
-    <link rel="stylesheet" href="assets/css/Navbar-With-Button-icons.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Blogr</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Overpass:300,400,600&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&amp;display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body style="--bs-primary: #FF525D;--bs-primary-rgb: 255,82,93;--bs-secondary: #FF7A85;--bs-secondary-rgb: 255,122,133;--bs-dark: #1F3F5B;--bs-dark-rgb: 31,63,91;--bs-light: #FFFFFF;--bs-light-rgb: 255,255,255;">
-    <div class="container" style="background: url(&quot;assets/img/bg-pattern-intro-desktop.svg&quot;) center / auto no-repeat, linear-gradient(100deg, #FF8F70, #FF3D54 61%), var(--bs-red);padding-bottom: 316px;">
-        <nav class="navbar navbar-light navbar-expand-md py-3" style="--bs-primary: #FF525D;--bs-primary-rgb: 255,82,93;background: Transparent;">
-            <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span style="color: var(--bs-light);font-family: Ubuntu, sans-serif;font-weight: bold;font-size: 3rem;">Blogr</span></a>
-                <div class="dropdown"><a class="dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="padding-left: 10px;padding-right: 10px;color: var(--bs-light);font-family: Overpass, sans-serif;">Product</a>
-                    <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
-                </div>
-                <div class="dropdown"><a class="dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="padding-left: 10px;padding-right: 10px;color: var(--bs-light);font-family: Overpass, sans-serif;">Company</a>
-                    <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
-                </div>
-                <div class="dropdown"><a class="dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="padding-left: 10px;padding-right: 10px;color: var(--bs-light);font-family: Overpass, sans-serif;">Connect</a>
-                    <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
-                </div><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navcol-1">
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item"></li>
-                    </ul><button class="btn btn-primary" type="button" style="margin-left: 18px;margin-right: 18px;background: transparent;border-style: none;border-radius: 20px;font-weight: bold;">Login</button><button class="btn btn-primary" type="button" style="background: var(--bs-light);color: #FF525D;border-radius: 30px;border-width: 0px;border-style: none;padding-left: 27px;padding-right: 27px;font-weight: bold;padding-top: 12px;padding-bottom: 12px;">Sign Up</button>
-                </div>
-            </div>
-        </nav>
-        <div class="hero-section" style="margin-top: 33px;margin-bottom: 33px;">
-            <h1 class="text-center" style="font-family: Overpass, sans-serif;font-weight: bold;color: var(--bs-light);">A modern publishing platform</h1>
-            <p class="text-center" style="font-family: Ubuntu, sans-serif;color: var(--bs-light);">Grow your audience and build your online brand</p><button class="btn btn-primary text-center" type="button" style="border-radius: 940px;background: var(--bs-light);color: var(--bs-primary);font-weight: bold;border-style: none;font-size: 14px;padding-left: 10px;padding-right: 10px;margin-left: 8px;margin-right: 8px;font-family: Overpass, sans-serif;">Start for Free</button><button class="btn btn-primary" type="button" style="border-radius: 31px;border-color: var(--bs-light);background: transparent;padding-left: 17px;padding-right: 17px;font-size: 14px;font-weight: bold;">Learn More</button>
-        </div>
+<body>
+  <section class="hero-section">
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Blogr</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Company</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Connect
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <ul class="nav navbar-nav navbar-right">
+            <button class="btn-nav btn btn-outline-success" type="submit">Login</button>
+            <button class="btn-nav btn btn-outline-success" type="submit">Sign Up</button>
+          </ul>
+        </ul>
+      </div>
     </div>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  </nav>
+
+  <div class="">
+    <h1>A modern publishing platform</h1>
+    <p>Grow your audience and build your online brand</p>
+
+    <button type="button" name="button">Start for Free</button>
+    <button type="button" name="button">Learn More</button>
+  </div>
+  
+  </section>
+
+  <section class="value-section">
+
+  </section>
 </body>
 
 </html>
